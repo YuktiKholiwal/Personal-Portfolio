@@ -39,8 +39,8 @@ const header = () => {
           Resume</Link>
       </li>
       <li className="nav-item">
-      <Link className="nav-link" to="" smooth={true} duration={500} activeClass="active" spy={true} offset={0}>
-           Blog</Link>
+      <a  className="nav-link" href="https://youngnkeen.blogspot.com/">
+           Blog</a>
       </li>
       <li className="nav-item">
       <Link className="nav-link" to="footer" smooth={true} duration={500} activeClass="active" spy={true} offset={0}>
