@@ -3,7 +3,6 @@ import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./Mycomponents/header";
 import Head from "./Mycomponents/head";
-import Particles from "react-particles-js";
 import Aboutme from "./Mycomponents/aboutme";
 import Projects from "./Mycomponents/projects";
 import Resume from "./Mycomponents/resume";
