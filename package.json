@@ -52,7 +52,6 @@
       "last 1 safari version"
     ]
   },
-
   "devDependencies": {
     "postcss-values-parser": "^6.0.0"
   },
