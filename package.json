@@ -49,11 +49,17 @@
       "last 1 safari version"
     ]
   },
-  "resolutions": {
-    "postcss-custom-properties": "^9.1.1"
-  },
+
   "devDependencies": {
-    "postcss-custom-properties": "^11.0.0",
     "postcss-values-parser": "^6.0.0"
+  },
+
+  "cssnano": {
+    "preset": [
+      "default",
+      {
+        "calc": false
+      }
+    ]
   }
 }
