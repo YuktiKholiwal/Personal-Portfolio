@@ -6,7 +6,7 @@ const aboutme = () => {
     return (
       <div className="container-fluid">
  <div className="aboutme row">
-  <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+  <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12" id="aboutme">
   <img src= {Image} alt="pic"/>
     </div>
   <div className="col-lg-8 col-md-8 col-sm-12 col-xs-12">

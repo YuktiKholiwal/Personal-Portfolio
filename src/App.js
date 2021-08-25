@@ -10,6 +10,7 @@ import Resume from "./Mycomponents/resume";
 import Footer from "./Mycomponents/footer";
 import Knowme from "./Mycomponents/knowme";
 
+
 function App() {
   return (
     <>

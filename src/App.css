@@ -360,7 +360,7 @@ background: black;
     font-size: 30px;
   }
   .flip-card-back ul{
-    font-size: 11px;
+    font-size: 9px;
   }
   .flip-card-back h2{
     font-size: 23px;
@@ -497,10 +497,19 @@ background: black;
     font-size: 50px;
   }
   .projects .card-body{
-    height: 20vh;
+    height: 25vh;
   }
   .projects .col{
     padding-bottom: 50px;
+  }
+  .projects .card-title{
+    padding: 0px;
+    font-size: 15px;
+  }
+  
+  .projects .card-text{
+    padding: 5px;
+    font-size: 12px;
   }
   
 
@@ -509,21 +518,27 @@ background: black;
 @media (max-width: 576px) {
   .projects h1{
     font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .projects .row{
+    padding-top: 20px;
   }
   .projects .card-body{
     height: 20vh;
   }
   .projects .col{
     padding-bottom: 50px;
+    padding-top: 0px;
   }
   .projects .card-title{
-    padding: 5px;
-    font-size: 18px;
+    padding: 3px;
+    font-size: 15px;
   }
   
   .projects .card-text{
-    padding: 7px;
-    font-size: 14px;
+    padding: 5px;
+    font-size: 13px;
   }
 
 }

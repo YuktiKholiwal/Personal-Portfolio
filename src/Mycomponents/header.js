@@ -3,10 +3,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { Link, animateScroll as scroll} from 'react-scroll';
 import Typed from "react-typed";
+import {HideBetween, HideOn, HideScroll} from "react-hide-on-scroll";
 
 const header = () => {
     return (
-      <section id="header">
+
+      <HideScroll variant="up">
+<section id="header">
 <div className="container-fluid">
 <nav className="navbar navbar-expand-lg  navbar-dark">
 <div className="container">
@@ -22,7 +25,7 @@ const header = () => {
            About me </Link>
       </li>
       <li className="nav-item">
-      <Link className="nav-link" to="knowme" smooth={true} duration={500} activeClass="active" spy={true} offset={0 }>
+      <Link className="nav-link" to="knowme" smooth={true} duration={500} activeClass="active" spy={true} offset={0}>
           Know me </Link>
       </li>
       <li className="nav-item">
@@ -30,8 +33,9 @@ const header = () => {
            Projects</Link>
       </li>
       </ul>
-      <h1 className="name mx-auto">Yukti Kholiwal </h1>
-
+      <HideScroll>
+      <h1 className="name mx-auto {classNames(styles.sticky, styles.hideScroll)}">Yukti Kholiwal </h1>
+      </HideScroll>
 
       <ul className="navbar-nav ms-auto">
       <li className="nav-item">
@@ -39,7 +43,7 @@ const header = () => {
           Resume</Link>
       </li>
       <li className="nav-item">
-      <a  className="nav-link" href="https://youngnkeen.blogspot.com/">
+      <a  className="nav-link" href="https://youngnkeen.blogspot.com/" target="_blank">
            Blog</a>
       </li>
       <li className="nav-item">
@@ -58,7 +62,7 @@ const header = () => {
 
 
 </section>
-
+</HideScroll>
 
     )
 }
