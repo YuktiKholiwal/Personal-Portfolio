@@ -1,5 +1,4 @@
 import React from 'react'
-import DownloadLink from "react-download-link";
 
 const resume = () => {
     return (

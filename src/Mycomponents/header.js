@@ -2,8 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { Link, animateScroll as scroll} from 'react-scroll';
-import Typed from "react-typed";
-import {HideBetween, HideOn, HideScroll} from "react-hide-on-scroll";
+import { HideScroll} from "react-hide-on-scroll";
 
 const header = () => {
     return (

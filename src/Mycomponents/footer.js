@@ -1,4 +1,6 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 const footer = () => {
     return (
@@ -6,26 +8,25 @@ const footer = () => {
         <div className="footer" id="footer">
  <footer className="text-center ">
   <div className="container p-4">
-
      <p> Connect with me:</p>
     <section className="">
         
-        <a className="btn btn-outline-dark btn-floating m-lg-3 m-md-3 m-sm-2 m-2" href="https://www.facebook.com/chicky.kholiwal" role="button" target="_blank" >
+        <a className="m-lg-4 m-md-3 m-sm-3 m-3" href="https://www.facebook.com/chicky.kholiwal" role="button" target="_blank" >
                   <i className="fab fa-facebook-f"></i></a>
 
 
-      <a className="btn btn-outline-dark btn-floating m-lg-3 m-md-3 m-sm-2 m-2" href="mailto: ykholiwal@gmail.com" role="button" target="_blank">
+      <a className="m-lg-4 m-md-3 m-sm-3 m-3" href="mailto: ykholiwal@gmail.com" role="button" target="_blank">
           <i className="fab fa-google"></i></a>
 
 
-      <a className="btn btn-outline-dark btn-floating m-lg-3 m-md-3 m-sm-2 m-2" href="https://www.instagram.com/kholiwal_yukti/" role="button" target="_blank">
+      <a className="m-lg-4 m-md-3 m-sm-3 m-3" href="https://www.instagram.com/kholiwal_yukti/" role="button" target="_blank">
           <i className="fab fa-instagram"></i></a>
 
-      <a className="btn btn-outline-dark btn-floating m-lg-3 m-md-3 m-sm-2 m-2" href="https://www.linkedin.com/in/yukti-kholiwal-027131168/" role="button" target="_blank">
+      <a className="m-lg-4 m-md-3 m-sm-3 m-3" href="https://www.linkedin.com/in/yukti-kholiwal-027131168/" role="button" target="_blank">
           <i className="fab fa-linkedin-in"></i></a>
 
 
-      <a className="btn btn-outline-dark btn-floating m-lg-3 m-md-3 m-sm-2 m-2" href="https://github.com/YuktiKholiwal" role="button" target="_blank">
+      <a className="m-lg-4 m-md-3 m-sm-3 m-3" href="https://github.com/YuktiKholiwal" role="button" target="_blank">
           <i className="fab fa-github"></i></a>
     </section>
 

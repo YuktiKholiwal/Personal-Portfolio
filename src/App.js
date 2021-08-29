@@ -1,6 +1,6 @@
-
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
+import 'mdbreact/dist/css/mdb.css';
 import Header from "./Mycomponents/header";
 import Head from "./Mycomponents/head";
 import Aboutme from "./Mycomponents/aboutme";
