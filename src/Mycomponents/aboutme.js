@@ -24,12 +24,7 @@ const aboutme = () => {
 <div className="text1 ">I am Yukti Kholiwal.</div> 
      <div className="text2">A proud daughter, a hard working student, an ambitious girl.</div>
      <p>
-     I am a girl with dreams and a determination to fulfill them. I am very patient and heed to 
-     intricate details. I brim with positivity and optimism. I try to find a reason to smile 
-     in the worst of conditions. I can be very patient in dealing with people and while studying. 
-     However sometimes I can stress a lot over petty things. I am a good learner and a hard worker.
-     I try to find opportunities to learn new and different things. 
-     I am looking forward to gain experience and polish my skills.
+     I am a young woman with dreams and a strong desire to fulfil them. I am a hard-working girl who aspires to be independent and learn as much as possible. A span of 20 years has taught me that anything in life can be achieved if you are patient enough and respect time.  My failures have taught me to find a reason to be happy and hopeful in the worst of circumstances. However, I tend to get worked up over petty issues. Given an opportunity, I try to exploit it to its complete potential to gain experience and polish my skills.
 </p>
   </div> 
 </div>
